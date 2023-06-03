@@ -3,17 +3,18 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: Xiao
 subtitle: ''
 description: ''
 keywords:
-author: John Doe
-language: en
+author: Joel Xiao
+language: zh
 timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://joel-xiao.github.io.git
+url: https://joel-xiao.github.io
+root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -100,7 +101,7 @@ ignore:
 theme: butterfly
 
 # Deployment
-## Docs: https://hexo.io/docs/one-command-deployment
+## Docs: https://hexo.io/docs/one-command-deployment 
 deploy:
   type: 'git'
   repo: 'https://github.com/joel-xiao/joel-xiao.github.io'
