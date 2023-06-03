@@ -104,4 +104,4 @@ theme: butterfly
 deploy:
   type: 'git'
   repo: 'https://github.com/joel-xiao/joel-xiao.github.io'
-  branch: 'man'
+  branch: 'main'
