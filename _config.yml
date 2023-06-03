@@ -3,13 +3,13 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Joel
-subtitle: ''
-description: ''
-keywords:
+title: Joel Xiao
+subtitle: 'Joel Xiao 的博客'
+description: '技术分享 个人心得'
+keywords: 技术分享 个人心得
 author: Joel Xiao
-language: zh
-timezone: ''
+language: zh-CN
+timezone: 'Asia/Beijing'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
@@ -50,7 +50,7 @@ highlight:
   auto_detect: false
   tab_replace: ''
   wrap: true
-  hljs: false
+  hljs: true
 prismjs:
   enable: false
   preprocess: true
@@ -106,3 +106,89 @@ deploy:
   type: 'git'
   repo: 'https://github.com/joel-xiao/joel-xiao.github.io'
   branch: 'main'
+
+
+    
+## Live2D看板娘
+live2d:
+  enable: true
+  pluginModelPath: assets/
+  model:
+    #模板目录，在node_modules里
+    use: live2d-widget-model-shizuku
+  display:
+    position: left
+    width: 180 
+    height: 380
+  mobile:
+    # 在手机端显示
+    show: false   
+  rect:
+    opacity:0.7
+
+## 音乐播放器
+aplayer:
+  meting: true
+  asset_inject: false
+  
+butterfly_article_double_row:
+  enable: true
+
+# hexo-filter-gitcalendar
+# see https://akilar.top/posts/1f9c68c9/
+gitcalendar:
+  enable: true # 开关
+  priority: 5 #过滤器优先权
+  enable_page: / # 应用页面
+  # butterfly挂载容器
+  layout: # 挂载容器类型
+    type: id
+    name: recent-posts
+    index: 0
+  # volantis挂载容器
+    # layout:
+    #   type: class
+    #   name: l_main
+    #   index: 0
+  # matery挂载容器
+  # layout:
+  #   type: id
+  #   name: indexCard
+  #   index: 0
+  # mengd挂载容器
+  # layout:
+  #   type: class
+  #   name: content
+  #   index: 0
+  user: joel-xiao #git用户名
+  apiurl: 'https://gitcalendar.akilar.top'
+  minheight:
+    pc: 280px #桌面端最小高度
+    mibile: 0px #移动端最小高度
+  color: "['#e4dfd7', '#f9f4dc', '#f7e8aa', '#f7e8aa', '#f8df72', '#fcd217', '#fcc515', '#f28e16', '#fb8b05', '#d85916', '#f43e06']" #橘黄色调
+  # color: "['#ebedf0', '#fdcdec', '#fc9bd9', '#fa6ac5', '#f838b2', '#f5089f', '#c4067e', '#92055e', '#540336', '#48022f', '#30021f']" #浅紫色调
+  # color: "['#ebedf0', '#f0fff4', '#dcffe4', '#bef5cb', '#85e89d', '#34d058', '#28a745', '#22863a', '#176f2c', '#165c26', '#144620']" #翠绿色调
+  # color: "['#ebedf0', '#f1f8ff', '#dbedff', '#c8e1ff', '#79b8ff', '#2188ff', '#0366d6', '#005cc5', '#044289', '#032f62', '#05264c']" #天青色调
+  container: .recent-post-item(style='width:100%;height:auto;padding:10px;') #父元素容器，需要使用pug语法
+  gitcalendar_css: https://npm.elemecdn.com/hexo-filter-gitcalendar/lib/gitcalendar.css
+  gitcalendar_js: https://npm.elemecdn.com/hexo-filter-gitcalendar/lib/gitcalendar.js
+
+# envelope_comment:
+#   enable: true
+#   cover: https://ae01.alicdn.com/kf/U5bb04af32be544c4b41206d9a42fcacfd.jpg # 信笺封面图
+#   message:  # 信笺内容，支持多行
+#     - 有什么想问的？
+#     - 有什么想说的？
+#     - 有什么想吐槽的？
+#   bottom: 自动书记人偶竭诚为您服务！   # 信笺结束语，只能单行
+#   height:                          # 调整信笺划出高度，默认1050px
+#   path:                            # 【可选】comments 的路径名称。默认为 comments ， 生成的页面为 comments/index.html
+#   front_matter:                    # 【可选】comments页面的 front_matter 配置
+#     title: 留言板
+#     comments: false
+#     aside: false
+
+lazyload:
+  enable: false  # 是否开启图片懒加载
+  onlypost: false  # 是否只对文章的图片做懒加载
+  loadingImg: # eg ./images/loading.gif
