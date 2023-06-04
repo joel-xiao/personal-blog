@@ -210,3 +210,31 @@ wowjs:
   animate_css: https://npm.elemecdn.com/hexo-butterfly-wowjs/lib/animate.min.css
   wow_js: https://npm.elemecdn.com/hexo-butterfly-wowjs/lib/wow.min.js
   wow_init_js: https://npm.elemecdn.com/hexo-butterfly-wowjs/lib/wow_init.js
+
+  kramed:
+    gfm: true
+    pedantic: false
+    sanitize: false
+    tables: true
+    breaks: true
+    smartLists: true
+    smartypants: true
+
+plugins:
+  - hexo-algoliasearch
+
+algolia:
+  appId: "DOIDBBS6FY"
+  apiKey: "0059a9c6c55d619bef0f86b62adfccbf"
+  adminApiKey: "bf97fbe242bdc47d516e31e861a1a389"
+  chunkSize: 5000
+  indexName: "joel-xiao_blog"
+  fields:
+    - content:strip:truncate,0,500
+    - excerpt:strip
+    - gallery
+    - link
+    - photos
+    - slug
+    - tags
+    - title
