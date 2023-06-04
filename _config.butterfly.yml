@@ -215,7 +215,7 @@ footer:
     enable: true
     since: 2023
   custom_text:
-  copyright: true # Copyright of theme and framework
+  copyright: false # Copyright of theme and framework
 
 # aside (側邊欄)
 # --------------------------------------
@@ -927,7 +927,7 @@ inject:
     # 页脚养鱼
     - <script src="https://cdn.jsdelivr.net/gh/xiabo2/CDN@latest/fishes.js"></script>
     # 网页运行时长
-    - <script src="/js/run-time.js"></script>
+    # - <script src="/js/run-time.js"></script>
 
     # 主题检测IE并主动提示不支持
     - <script defer data-pjax src="/js/kernel.js"></script>
