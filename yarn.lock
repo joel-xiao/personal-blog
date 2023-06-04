@@ -1785,17 +1785,17 @@
   "resolved" "https://registry.npmmirror.com/hexo-butterfly-article-double-row/-/hexo-butterfly-article-double-row-1.0.2.tgz"
   "version" "1.0.2"
 
-"hexo-butterfly-clock@^1.0.7":
-  "integrity" "sha512-pAyVICBOpmjCjg+qwxonSlcPQ8vsoKGWVRCsVXT1RT0hAqB9d1t81Gl7JpA7dWd+xdvkUaWX7QIvjyaGLp1nig=="
-  "resolved" "https://registry.npmmirror.com/hexo-butterfly-clock/-/hexo-butterfly-clock-1.0.7.tgz"
-  "version" "1.0.7"
-  dependencies:
-    "pug" "^3.0.0"
-
 "hexo-butterfly-envelope@^1.0.15":
   "integrity" "sha512-Z12iYDhrrJkARSvCIYTVRPrlipLE9o5Zeh2kozj/MbLz5tcQmfr62w+qu+hOJh2XiZucAyyoUyZq5faKP4YD4A=="
   "resolved" "https://registry.npmmirror.com/hexo-butterfly-envelope/-/hexo-butterfly-envelope-1.0.15.tgz"
   "version" "1.0.15"
+  dependencies:
+    "pug" "^3.0.0"
+
+"hexo-butterfly-wowjs@^1.0.5":
+  "integrity" "sha512-bC3P5dHr3DyclXt9yvWqzDvmrRjBE6h66A7WkVsB00MaOZUHVKZbD18r4WuH5RQtHdJlTnZf/ADyYBHFTEVEqw=="
+  "resolved" "https://registry.npmmirror.com/hexo-butterfly-wowjs/-/hexo-butterfly-wowjs-1.0.5.tgz"
+  "version" "1.0.5"
   dependencies:
     "pug" "^3.0.0"
 
