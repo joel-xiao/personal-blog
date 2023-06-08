@@ -13,19 +13,16 @@ demo https://joel-xiao.github.io/
 
 将 theme.zip 解压到当前目录后
 
+````
 install
 npm or yarn or pnpm 
 
 run
-
 hexo s
 
-
 build
-
 hexo b
 
-
 roduction
-
 hexo d
+````
