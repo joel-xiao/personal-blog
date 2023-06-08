@@ -11,7 +11,7 @@ demo https://joel-xiao.github.io/
 先自行 安装 hexo 框架 https://hexo.io/zh-cn/
 
 
-将 theme.zip 解压到当前目录后
+将 theme.zip 解压到当前目录后,在项目根目录执行以下命令
 
 ````
 install
