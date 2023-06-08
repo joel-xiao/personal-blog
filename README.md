@@ -17,10 +17,15 @@ install
 npm or yarn or pnpm 
 
 run
+
 hexo s
 
+
 build
+
 hexo b
 
+
 roduction
+
 hexo d
